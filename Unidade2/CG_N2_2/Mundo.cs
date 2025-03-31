@@ -61,8 +61,8 @@ namespace gcgcg
 #if CG_DEBUG
       Console.WriteLine("Tamanho interno da janela de desenho: " + ClientSize.X + "x" + ClientSize.Y);
 #endif
-            //change the background color
-            GL.ClearColor(0.50f, 0.50f, 0.69f, 1.0f);
+
+            GL.ClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
             #region Cores
             _shaderVermelha = new Shader("Shaders/shader.vert", "Shaders/shaderVermelha.frag");
@@ -84,14 +84,12 @@ namespace gcgcg
 
             stopwatch.Start();
 #endif
-            //adds the circle
-            #region Objeto: Circulo
-
-            objetoSelecionado = new Circulo(mundo, ref rotuloAtual, 0.5, new Ponto4D())
+            //adds rectangle
+            #region Objeto: retângulo  
+            objetoSelecionado = new Retangulo(mundo, ref rotuloAtual, new Ponto4D(-0.5, -0.5), new Ponto4D(0.5, 0.5))
             {
-                ShaderObjeto = new Shader("Shaders/shader.vert", "Shaders/shaderAmarela.frag")
+                ShaderObjeto = new Shader("Shaders/shader.vert", "Shaders/shaderMagenta.frag")
             };
-
             #endregion
 
 #if CG_Privado
@@ -154,9 +152,15 @@ namespace gcgcg
 
             #region Funções de apoio para o desenvolvimento. Não é do enunciado  
             if (estadoTeclado.IsKeyPressed(Keys.Space))
-                objetoSelecionado = Grafocena.GrafoCenaProximo(mundo, objetoSelecionado, grafoLista);
+            {
+                //loops through the primitive types
+                if (objetoSelecionado.PrimitivaTipo >= PrimitiveType.TriangleFan)
+                    objetoSelecionado.PrimitivaTipo = PrimitiveType.Points;
+                else
+                    objetoSelecionado.PrimitivaTipo++;
+            }
 
-            if (estadoTeclado.IsKeyPressed(Keys.F))
+             if (estadoTeclado.IsKeyPressed(Keys.F))
                 Grafocena.GrafoCenaImprimir(mundo, grafoLista);
             if (estadoTeclado.IsKeyPressed(Keys.T))
             {

@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Grafocena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\Grafocena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\Shaders\\Texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\Shaders\\Shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\CameraPerspective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\CameraPerspective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\BBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\BBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CG_Biblioteca\\Objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_1\\Ponto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Unidade2\\CG_N2_1\\Ponto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Grafocena.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Grafocena.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\Grafocena.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Grafocena.cs",
+              "RelativeToolTip": "CG_Biblioteca\\Grafocena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:43:41.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Shader.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\Shaders\\Shader.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Shader.cs",
+              "RelativeToolTip": "CG_Biblioteca\\Shaders\\Shader.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwGUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:23:24.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BBox.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\BBox.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\BBox.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\BBox.cs",
+              "RelativeToolTip": "CG_Biblioteca\\BBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:22:42.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Objeto.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Objeto.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\Objeto.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Objeto.cs",
+              "RelativeToolTip": "CG_Biblioteca\\Objeto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:22:29.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Texture.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Texture.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\Shaders\\Texture.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\Shaders\\Texture.cs",
+              "RelativeToolTip": "CG_Biblioteca\\Shaders\\Texture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:22:22.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraPerspective.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\CameraPerspective.cs",
+              "RelativeDocumentMoniker": "CG_Biblioteca\\CameraPerspective.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\CG_Biblioteca\\CameraPerspective.cs",
+              "RelativeToolTip": "CG_Biblioteca\\CameraPerspective.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:36:11.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Ponto.cs",
               "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_1\\Ponto.cs",
               "RelativeDocumentMoniker": "Unidade2\\CG_N2_1\\Ponto.cs",
@@ -39,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_1\\Program.cs",
               "RelativeDocumentMoniker": "Unidade2\\CG_N2_1\\Program.cs",
@@ -51,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "CG_N2_Exemplo.code-workspace",
               "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_1\\CG_N2_Exemplo.code-workspace",
               "RelativeDocumentMoniker": "Unidade2\\CG_N2_1\\CG_N2_Exemplo.code-workspace",

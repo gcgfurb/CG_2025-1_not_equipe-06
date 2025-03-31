@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CG_Biblioteca\\Shaders",
     "\\Unidade2",
-    "\\Unidade2\\CG_N2_1"
+    "\\Unidade2\\CG_N2_1",
+    "\\Unidade2\\CG_N2_2"
   ],
-  "SelectedNode": "\\Unidade2\\CG_N2_1\\CG_N2_Exemplo.sln",
+  "SelectedNode": "\\Unidade2\\CG_N2_2\\README.md",
   "PreviewInSolutionExplorer": false
 }
