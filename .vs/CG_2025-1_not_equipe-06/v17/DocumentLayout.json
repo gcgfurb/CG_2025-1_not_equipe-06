@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\SegReta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Unidade2\\CG_N2_3\\SegReta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\Circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Unidade2\\CG_N2_3\\Circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_2\\Retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Unidade2\\CG_N2_2\\Retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SegReta.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\SegReta.cs",
+              "RelativeDocumentMoniker": "Unidade2\\CG_N2_3\\SegReta.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\SegReta.cs",
+              "RelativeToolTip": "Unidade2\\CG_N2_3\\SegReta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:45:56.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circulo.cs",
+              "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\Circulo.cs",
+              "RelativeDocumentMoniker": "Unidade2\\CG_N2_3\\Circulo.cs",
+              "ToolTip": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_3\\Circulo.cs",
+              "RelativeToolTip": "Unidade2\\CG_N2_3\\Circulo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:45:44.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Retangulo.cs",
               "DocumentMoniker": "C:\\Users\\sarah\\Documents\\Furb\\Comuta\u00E7\u00E3o Gr\u00E1fica - 2025\\CG_2025-1_not_equipe-06\\Unidade2\\CG_N2_2\\Retangulo.cs",
               "RelativeDocumentMoniker": "Unidade2\\CG_N2_2\\Retangulo.cs",
