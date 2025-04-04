@@ -85,11 +85,20 @@ namespace gcgcg
             stopwatch.Start();
 #endif
 
-            //adds SrPalito
-            #region Objeto: SrPalito  
+            //adds splineInter
+            #region Objeto: Spline  
+            objetoSelecionado = new SplineInter(mundo, ref rotuloAtual)
+            {
+                ShaderObjeto = new Shader("Shaders/shader.vert", "Shaders/shaderAmarela.frag")
+            };
+            #endregion
 
-            objetoSelecionado = new SrPalito(mundo, ref rotuloAtual);
-
+            //adds SplineBezier
+            #region Objeto: SplineBezier
+            objetoSelecionado = new SplineBezier(mundo, ref rotuloAtual)
+            {
+                ShaderObjeto = new Shader("Shaders/shader.vert", "Shaders/shaderAmarela.frag")
+            };
             #endregion
 
 #if CG_Privado
@@ -150,31 +159,66 @@ namespace gcgcg
             if (estadoTeclado.IsKeyPressed(Keys.Escape))
                 Close();
 
-            if(objetoSelecionado is SrPalito srPalito)
+            if(objetoSelecionado is SplineInter splineInter)
             {
-                if (estadoTeclado.IsKeyPressed(Keys.Q))
-                    //left
-                    srPalito.AtualizarPe(-0.05);
+                if (estadoTeclado.IsKeyPressed(Keys.C))
+                    //up
+                    splineInter.AtualizarSpline(new Ponto4D(y: 0.05));
                 
-                else if(estadoTeclado.IsKeyPressed(Keys.W))
+                else if(estadoTeclado.IsKeyPressed(Keys.B))
+                    //down
+                    splineInter.AtualizarSpline(new Ponto4D(y: -0.05));
+
+                else if(estadoTeclado.IsKeyPressed(Keys.E))
+                    //left
+                    splineInter.AtualizarSpline(new Ponto4D(-0.05));
+
+                else if(estadoTeclado.IsKeyPressed(Keys.D))
                     //rigth
-                    srPalito.AtualizarPe(0.05);
+                    splineInter.AtualizarSpline(new Ponto4D(0.05));
 
-                else if(estadoTeclado.IsKeyPressed(Keys.A))
-                    //decrease size
-                    srPalito.AtualizarRaio(-0.05);
+                else if(estadoTeclado.IsKeyPressed(Keys.Equal))
+                    //more points
+                    splineInter.SplineQtdPto(1);
 
-                else if(estadoTeclado.IsKeyPressed(Keys.S))
-                    //increase size
-                    srPalito.AtualizarRaio(0.05);
+                else if(estadoTeclado.IsKeyPressed(Keys.Comma))
+                    //less points
+                    splineInter.SplineQtdPto(-1);
 
-                else if(estadoTeclado.IsKeyPressed(Keys.Z))
-                    //decrease angle
-                    srPalito.AtualizarAngulo(-5);
+                else if (estadoTeclado.IsKeyPressed(Keys.Space))
+                    //change selection
+                    splineInter.AtualizarSpline(new Ponto4D(), true);
+            }
 
-                else if(estadoTeclado.IsKeyPressed(Keys.X))
-                    //increase angle
-                    srPalito.AtualizarAngulo(5);
+            if (objetoSelecionado is SplineBezier splineBezier)
+            {
+                if (estadoTeclado.IsKeyPressed(Keys.C))
+                    //up
+                    splineBezier.AtualizarSpline(new Ponto4D(y: 0.05));
+
+                else if (estadoTeclado.IsKeyPressed(Keys.B))
+                    //down
+                    splineBezier.AtualizarSpline(new Ponto4D(y: -0.05));
+
+                else if (estadoTeclado.IsKeyPressed(Keys.E))
+                    //left
+                    splineBezier.AtualizarSpline(new Ponto4D(-0.05));
+
+                else if (estadoTeclado.IsKeyPressed(Keys.D))
+                    //rigth
+                    splineBezier.AtualizarSpline(new Ponto4D(0.05));
+
+                else if (estadoTeclado.IsKeyPressed(Keys.Equal))
+                    //more points
+                    splineBezier.SplineQtdPto(1);
+
+                else if (estadoTeclado.IsKeyPressed(Keys.Comma))
+                    //less points
+                    splineBezier.SplineQtdPto(-1);
+
+                else if (estadoTeclado.IsKeyPressed(Keys.Space))
+                    //change selection
+                    splineBezier.AtualizarSpline(new Ponto4D(), true);
             }
 
             #region Funções de apoio para o desenvolvimento. Não é do enunciado  
