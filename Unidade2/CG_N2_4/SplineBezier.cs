@@ -111,17 +111,16 @@ namespace gcgcg
             PontosApagar();
             for (var t = 0.0; t <= 1.0; t += 1.0 / splinePoints)
             {
-                double x = Math.Pow(1 - t, 3) * pontos4d[0].X + 3 *
-                           Math.Pow(1 - t, 2) * t * pontos4d[1].X + 3 * (1 - t) *
-                           Math.Pow(t, 2) * pontos4d[2].X +
-                           Math.Pow(t, 3) * pontos4d[3].X;
+                var p0 = Matematica.InterpolarRetaPonto(pontos4d[0], pontos4d[1], t);
+                var p1 = Matematica.InterpolarRetaPonto(pontos4d[1], pontos4d[2], t);
+                var p2 = Matematica.InterpolarRetaPonto(pontos4d[2], pontos4d[3], t);
 
-                double y = Math.Pow(1 - t, 3) * pontos4d[0].Y + 3 *
-                           Math.Pow(1 - t, 2) * t * pontos4d[1].Y + 3 * (1 - t) *
-                           Math.Pow(t, 2) * pontos4d[2].Y +
-                           Math.Pow(t, 3) * pontos4d[3].Y;
+                var p3 = Matematica.InterpolarRetaPonto(p0, p1, t);
+                var p4 = Matematica.InterpolarRetaPonto(p1, p2, t);
 
-                PontosAdicionar(new Ponto4D(x, y));
+                var finalPoint = Matematica.InterpolarRetaPonto(p3, p4, t);
+
+                PontosAdicionar(finalPoint);
             }
 
             ObjetoAtualizar();
